@@ -1,0 +1,250 @@
+/***********************
+GENERAL
+************************/
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  color: goldenrod;
+  margin: 0 0 1em 0;
+}
+h4 {
+   color: darkgreen; 
+  margin: 0 0 1em 0;
+}
+p.round {
+    border: 2px solid black;
+    background: white;
+    opacity: 0.8;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    border-radius: 8px;
+}
+/***********************
+HEADING
+************************/
+
+header {
+  background: none;
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+body {
+    background: none;
+}
+
+.logo { 
+  background: gray;
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+h1 {
+  font-family: 'Noto+Sans', sans-serif;
+  text-align:  center;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+  color: black;
+  text-shadow: 0 0 3px green;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  text-align:  center;
+    font-size: 1.25em;
+  margin: -5px 0 0;
+  font-weight: normal;
+   color: black;
+  text-shadow: 0 0 3px gold;
+}
+h5 {
+    font-family: 'Ubuntu', sans-serif;
+  text-align:  center;
+    font-size: 1.75em;
+  margin: 30px 0 0;
+  font-weight: normal;
+   color: black;
+  text-shadow: 0 0 3px green;
+}
+
+h6 {
+  font-family: 'Ubuntu', sans-serif;
+  text-align:  center;
+    font-size: 1.75em;
+  margin: 30px 0 0;
+  font-weight: normal;
+   color: black;
+  text-shadow: 0 0 3px gold;
+}
+
+/***********************
+NAVIGATOR BAR
+************************/
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: none;
+    color: black;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+      font-size: 1.75em;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: goldenrod;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: black;
+}
+
+/***********************
+FOOTER
+************************/
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: black;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+/***********************
+PAGE: ABOUT
+************************/
+
+.profile {
+     margin: auto;
+  display: block;
+  max-width: 300px;
+  border-radius: 100%
+}
+
+ /* Slideshow container */
+ 
+ 
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom:20px;
+  width: 100%;
+  text-align: center;
+}
+.mySlides {
+  display:none;
+}
+.active-slide {
+  display:block;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
